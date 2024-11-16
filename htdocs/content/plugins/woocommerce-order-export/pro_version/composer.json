@@ -1,0 +1,6 @@
+{
+    "require": {
+        "dragonmantank/cron-expression": "^2.2",
+        "phpseclib/phpseclib": "~3.0"
+    }
+}

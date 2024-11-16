@@ -1,0 +1,614 @@
+# Translation of Plugins - Schema &amp; Structured Data for WP &amp; AMP - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Schema &amp; Structured Data for WP &amp; AMP - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-01-28 15:04:07+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Schema &amp; Structured Data for WP &amp; AMP - Stable (latest release)\n"
+
+#: modules/elementor/widgets/qanda-block.php:254
+msgid "vote"
+msgstr "vote"
+
+#: modules/elementor/widgets/qanda-block.php:253
+msgid "by"
+msgstr "par"
+
+#: modules/elementor/widgets/qanda-block.php:237
+msgid "By"
+msgstr "Par "
+
+#: modules/elementor/widgets/qanda-block.php:199
+msgid "suggested Answers List"
+msgstr "Liste de réponses suggérées"
+
+#: modules/elementor/widgets/qanda-block.php:152
+#: modules/elementor/widgets/qanda-block.php:263
+#: modules/elementor/widgets/qanda-block.php:345
+msgid "Suggested Answers"
+msgstr "Réponses suggérées"
+
+#: modules/elementor/widgets/qanda-block.php:138
+msgid "Accepted Answers List"
+msgstr "Liste de réponses acceptées"
+
+#: modules/elementor/widgets/qanda-block.php:129
+#: modules/elementor/widgets/qanda-block.php:190
+msgid "Date Created"
+msgstr "Date de création"
+
+#: modules/elementor/widgets/qanda-block.php:91
+#: modules/elementor/widgets/qanda-block.php:224
+#: modules/elementor/widgets/qanda-block.php:262
+#: modules/elementor/widgets/qanda-block.php:304
+msgid "Accepted Answers"
+msgstr "Réponses acceptées"
+
+#: modules/elementor/widgets/qanda-block.php:77
+msgid "Date"
+msgstr "Date"
+
+#: modules/elementor/widgets/qanda-block.php:18
+msgid "Q&A Block"
+msgstr "Bloc Q&R"
+
+#: modules/elementor/widgets/qanda-block.php:60
+#: modules/elementor/widgets/qanda-block.php:108
+#: modules/elementor/widgets/qanda-block.php:169
+#: modules/elementor/widgets/qanda-block.php:226
+#: modules/elementor/widgets/qanda-block.php:238
+#: modules/elementor/widgets/qanda-block.php:331
+#: modules/elementor/widgets/qanda-block.php:372
+msgid "Vote"
+msgstr "Voter"
+
+#: modules/elementor/widgets/qanda-block.php:53
+msgid "Enter Question Description"
+msgstr "Saisir une description de la question"
+
+#: modules/elementor/widgets/qanda-block.php:44
+msgid "Enter Question Name"
+msgstr "Saisir le nom de la question"
+
+#: modules/elementor/widgets/qanda-block.php:70
+msgid "Enter author name"
+msgstr "Saisir le nom de l’auteur/autrice"
+
+#: modules/elementor/widgets/how-to-block.php:285
+msgid "minutes"
+msgstr "minutes"
+
+#: modules/elementor/widgets/how-to-block.php:282
+msgid "hours"
+msgstr "heures"
+
+#: admin_section/settings.php:2180
+#: modules/elementor/widgets/how-to-block.php:279
+msgid "days"
+msgstr "jours"
+
+#: modules/elementor/widgets/how-to-block.php:186
+msgid "Tool"
+msgstr "Outil"
+
+#: modules/elementor/widgets/how-to-block.php:175
+msgid "Enter tool name"
+msgstr "Saisir un nom d’outil"
+
+#: modules/elementor/widgets/how-to-block.php:151
+msgid "Step Title"
+msgstr "Titre de l’étape"
+
+#: modules/elementor/widgets/how-to-block.php:127
+msgid "Enter step title"
+msgstr "Saisir un titre d’étape"
+
+#: modules/elementor/widgets/how-to-block.php:125
+msgid "Step"
+msgstr "Étape"
+
+#: modules/elementor/widgets/how-to-block.php:116
+#: modules/elementor/widgets/how-to-block.php:146
+msgid "Steps"
+msgstr "Étapes"
+
+#: modules/elementor/widgets/how-to-block.php:69
+#: modules/elementor/widgets/how-to-block.php:293
+msgid "Estimate Cost"
+msgstr "Estimation du coût"
+
+#: modules/elementor/widgets/how-to-block.php:58
+msgid "Minutes"
+msgstr "Minutes"
+
+#: modules/elementor/widgets/how-to-block.php:49
+msgid "Hours"
+msgstr "Heures"
+
+#: modules/elementor/widgets/how-to-block.php:40
+msgid "Days"
+msgstr "Jours"
+
+#: modules/elementor/widgets/how-to-block.php:32
+#: modules/elementor/widgets/how-to-block.php:276
+msgid "Time Needed"
+msgstr "Temps nécessaire"
+
+#: modules/elementor/widgets/how-to-block.php:18
+msgid "HowTo Block"
+msgstr "Bloc tutoriel"
+
+#: modules/elementor/widgets/how-to-block.php:152
+msgid "Step Description. Click the edit button to change this text."
+msgstr "Description de l’étape. Cliquez sur le bouton pour modifier ce texte."
+
+#: modules/elementor/widgets/how-to-block.php:199
+msgid "Materials"
+msgstr "Fournitures"
+
+#: modules/elementor/widgets/how-to-block.php:221
+#: modules/elementor/widgets/how-to-block.php:346
+msgid "Material"
+msgstr "Fourniture"
+
+#: modules/elementor/widgets/how-to-block.php:208
+msgid "Material Name"
+msgstr "Nom de la fourniture"
+
+#: modules/elementor/widgets/how-to-block.php:173
+msgid "Tool Name"
+msgstr "Nom de l’outil"
+
+#: modules/elementor/widgets/how-to-block.php:210
+msgid "Enter material name"
+msgstr "Saisir un nom de fourniture"
+
+#: modules/divi-builder/includes/modules/FaqBlockChild/FaqBlockChild.php:70
+msgid "Input your question here"
+msgstr "Saisir votre question ici"
+
+#: modules/divi-builder/includes/modules/FaqBlockChild/FaqBlockChild.php:38
+#: modules/elementor/widgets/qanda-block.php:51
+#: modules/elementor/widgets/qanda-block.php:100
+#: modules/elementor/widgets/qanda-block.php:161
+#: modules/gutenberg/assets/blocks/qanda.js:336
+#: modules/gutenberg/assets/blocks/qanda.js:399
+msgid "Text"
+msgstr "Texte"
+
+#: modules/divi-builder/includes/modules/FaqBlockChild/FaqBlockChild.php:25
+#: modules/divi-builder/includes/modules/FaqBlockChild/FaqBlockChild.php:67
+#: modules/elementor/widgets/faq-block.php:41
+#: modules/elementor/widgets/faq-block.php:44
+#: modules/elementor/widgets/qanda-block.php:34
+msgid "Question"
+msgstr "Question"
+
+#: modules/elementor/widgets/faq-block.php:82
+msgid "First Answer. Click the edit button to change this text."
+msgstr "Première réponse. Cliquez sur le bouton pour modifier son contenu."
+
+#: modules/elementor/widgets/faq-block.php:81
+msgid "First Question"
+msgstr "Première question"
+
+#: modules/elementor/widgets/faq-block.php:76
+msgid "Question List"
+msgstr "Liste des questions"
+
+#: modules/divi-builder/includes/modules/FaqBlock/FaqBlock.php:28
+#: modules/elementor/widgets/faq-block.php:68
+#: modules/elementor/widgets/how-to-block.php:247
+msgid "Unorder List"
+msgstr "Liste non ordonnée"
+
+#: modules/divi-builder/includes/modules/FaqBlock/FaqBlock.php:15
+#: modules/elementor/widgets/faq-block.php:18
+msgid "Faq Block"
+msgstr "Bloc FAQ"
+
+#: modules/divi-builder/includes/modules/FaqBlockChild/FaqBlockChild.php:77
+msgid "Input your answer here"
+msgstr "Saisir votre réponse ici"
+
+#: modules/divi-builder/includes/modules/FaqBlockChild/FaqBlockChild.php:74
+#: modules/elementor/widgets/faq-block.php:53
+#: modules/elementor/widgets/faq-block.php:56
+msgid "Answer"
+msgstr "Réponse"
+
+#: modules/divi-builder/includes/modules/FaqBlockChild/FaqBlockChild.php:43
+msgid "Heading Text"
+msgstr "Texte de l’en-tête"
+
+#: modules/divi-builder/includes/modules/FaqBlockChild/FaqBlockChild.php:26
+msgid "Question Settings"
+msgstr "Réglages des questions"
+
+#: modules/elementor/widgets/faq-block.php:32
+msgid "FAQ Block"
+msgstr "Bloc FAQ"
+
+#: modules/divi-builder/includes/modules/FaqBlock/FaqBlock.php:27
+#: modules/elementor/widgets/faq-block.php:67
+#: modules/elementor/widgets/how-to-block.php:246
+msgid "Order List"
+msgstr "Liste ordonnée"
+
+#: modules/divi-builder/includes/modules/FaqBlock/FaqBlock.php:22
+#: modules/elementor/widgets/faq-block.php:63
+#: modules/elementor/widgets/how-to-block.php:242
+msgid "Order Type"
+msgstr "Type de liste"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:923
+msgid "Submit and Deactivate"
+msgstr "Envoyer et désactiver"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:863
+msgid "Submitting form"
+msgstr "Soumission du formulaire"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:823
+msgid "Details (optional)"
+msgstr "Détails (facultatif)"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:821
+msgid "Didn't work"
+msgstr "N’a pas fonctionné"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:819
+msgid "Installed by mistake"
+msgstr "Installé par erreur"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:818
+msgid "Found a better plugin"
+msgstr "J’ai trouvé une meilleure extension"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:820
+msgid "Only required temporarily"
+msgstr "Uniquement nécessaire temporairement"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:817
+msgid "Not the features I wanted"
+msgstr "Ce ne sont pas les fonctionnalités que je voulais"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:816
+msgid "Lack of documentation"
+msgstr "Manque de documentation"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:812
+msgid "Sorry to see you go"
+msgstr "Désolé de vous voir partir"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:781
+msgid "No Thank You"
+msgstr "Non merci"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:780
+msgid "Yes Please"
+msgstr "Oui s’il vous plaît"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:734
+msgid "No thanks"
+msgstr "Non merci"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:277
+msgid "We can't detect any product information. This is most probably because you have not included the code snippet."
+msgstr "Nous ne pouvons pas détecter les informations sur le produit. C’est probablement parce que vous n’avez pas inclus l’extrait de code."
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:722
+msgid "Thank you for installing our %1$s. We'd like your permission to track its usage on your site and subscribe you to our newsletter. We won't record any sensitive data, only information regarding the WordPress environment and %1$s settings, which we will use to help us make improvements to the %1$s. Tracking is completely optional."
+msgstr "Merci d’avoir installé notre %1$s. Nous aimerions avoir votre permission pour suivre son utilisation sur votre site et vous abonner à notre newsletter. Nous n’enregistrerons aucune donnée sensible, seulement des informations concernant l’environnement de WordPress et les réglages de %1$s, que nous utiliserons pour nous aider à apporter des améliorations au %1$s. Le suivi est complètement facultatif."
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:815
+msgid "Set up is too difficult"
+msgstr "La configuration est trop difficile"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:733
+msgid "Sure! I'd love to help"
+msgstr "Bien sûr, j’aimerais aider"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:923
+msgid "Just Deactivate"
+msgstr "Désactiver simplement"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:813
+msgid "Before you deactivate the plugin, would you quickly give us your reason for doing so?"
+msgstr "Avant de désactiver l’extension, pourriez-vous rapidement nous donner votre raison ?"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:771
+msgid "Thank you for opting in to tracking. Would you like to receive occasional news about this %s, including details of new features and special offers?"
+msgstr "Merci d’avoir opté pour le suivi. Souhaitez-vous recevoir des nouvelles occasionnelles sur ce %s, y compris les détails des nouvelles fonctionnalités et des offres spéciales ?"
+
+#: admin_section/tracking/class-saswp-plugin-usage-tracker.php:715
+msgid "Become a super contributor by opting in to our anonymous %1$s data collection and to our updates. We guarantee no sensitive data is collected."
+msgstr "Devenez un super contributeur ou contributrice en acceptant notre collecte de données non sensibles de %1$s et pour nos mises à jour. Nous garantissons qu’aucune donnée sensible n’est collectée."
+
+#: modules/divi-builder/includes/modules/FaqBlock/FaqBlock.php:26
+#: modules/elementor/widgets/faq-block.php:66
+#: modules/elementor/widgets/how-to-block.php:245
+msgid "Select"
+msgstr "Sélectionner"
+
+#: admin_section/structure_admin.php:1907
+msgid "Your license key may not belong to this extension."
+msgstr "Votre clé de licence n’appartient peut-être pas à cette extension."
+
+#: modules/elementor/widgets/how-to-block.php:107
+#: modules/gutenberg/assets/blocks/howto.js:971
+msgid "Enter how to description"
+msgstr "Saisir une description de comment faire"
+
+#: core/array-list/meta_list.php:64
+msgid "Fixed Image"
+msgstr "Image fixe"
+
+#: core/array-list/meta_list.php:16
+msgid "Category"
+msgstr "Catégorie"
+
+#: output/service.php:77 output/service.php:84
+msgid "Advanced Custom Fields"
+msgstr "Champs personnalisés avancés"
+
+#: core/array-list/meta_list.php:50
+msgid "Featured image"
+msgstr "Image mise en avant"
+
+#: core/array-list/meta_list.php:39 core/array-list/meta_list.php:41
+#: core/array-list/meta_list.php:62 core/array-list/meta_list.php:65
+msgid "Custom Field"
+msgstr "Champ personnalisé"
+
+#: core/array-list/meta_list.php:23
+msgid "Last Modify Date"
+msgstr "Date de dernière modification"
+
+#: core/array-list/meta_list.php:22
+msgid "Publish Date"
+msgstr "Date de publication"
+
+#: core/array-list/meta_list.php:18
+msgid "Permalink"
+msgstr "Permalien"
+
+#: core/array-list/meta_list.php:17
+msgid "Excerpt"
+msgstr "Extrait"
+
+#: core/array-list/meta_list.php:15
+#: modules/divi-builder/includes/modules/FaqBlockChild/FaqBlockChild.php:32
+msgid "Content"
+msgstr "Contenu"
+
+#: core/array-list/meta_list.php:13
+msgid "Site URL"
+msgstr "URL du site"
+
+#: core/array-list/meta_list.php:12
+msgid "Tagline"
+msgstr "Slogan"
+
+#: core/array-list/meta_list.php:11
+msgid "Site Title"
+msgstr "Titre du site"
+
+#: core/array-list/meta_list.php:9 core/array-list/meta_list.php:48
+msgid "Single Element"
+msgstr "Élément unique"
+
+#: core/array-list/meta_list.php:58
+msgid "Manual Image URL"
+msgstr "URL de l’image de la notice"
+
+#: core/array-list/meta_list.php:51
+msgid "Author image"
+msgstr "Image de l’auteur/autrice"
+
+#: core/array-list/meta_list.php:21
+msgid "Author Last Name"
+msgstr "Nom de famille de l’auteur/autrice"
+
+#: core/array-list/meta_list.php:20
+msgid "Author First Name"
+msgstr "Prénom de l’auteur/autrice"
+
+#: core/array-list/meta_list.php:19
+msgid "Author Name"
+msgstr "Nom de l’auteur/autrice"
+
+#: core/array-list/meta_list.php:33
+msgid "Manual Field"
+msgstr "Champs manuel"
+
+#: core/array-list/meta_list.php:35
+msgid "Manual Text"
+msgstr "Texte manuel"
+
+#: core/array-list/meta_list.php:56
+msgid "Manual field"
+msgstr "Champs manuel"
+
+#: modules/reviews/reviews_setup.php:372
+msgid "Platforms"
+msgstr "Plateformes"
+
+#: modules/reviews/reviews_setup.php:370
+msgid "Add New Platform"
+msgstr "Ajouter une nouvelle plateforme"
+
+#: modules/reviews/reviews_setup.php:368
+msgid "Edit Platform"
+msgstr "Modifier la plateforme"
+
+#: modules/reviews/reviews_setup.php:367
+msgid "All Platform"
+msgstr "Toutes les plateformes"
+
+#: modules/reviews/reviews_setup.php:365
+msgctxt "taxonomy singular name"
+msgid "Platform"
+msgstr "Plateforme"
+
+#: modules/reviews/reviews_setup.php:364
+msgctxt "taxonomy general name"
+msgid "Platforms"
+msgstr "Plateformes"
+
+#: modules/reviews/reviews_setup.php:371
+msgid "New Platform Name"
+msgstr "Nom de la nouvelle plateforme"
+
+#: modules/reviews/reviews_widget.php:84
+msgid "Reviews :"
+msgstr "Avis :"
+
+#: modules/reviews/reviews_setup.php:369
+msgid "Update Platform"
+msgstr "Mettre à jour la plateforme"
+
+#: modules/reviews/reviews_setup.php:366
+msgid "Search Types"
+msgstr "Types de recherche"
+
+#: core/array-list/meta_list.php:14
+msgid "Title"
+msgstr "Titre"
+
+#: admin_section/structure_admin.php:1904
+msgid "Your license key has reached its activation limit."
+msgstr "Votre clé de licence a atteint sa limite d’activation."
+
+#: admin_section/structure_admin.php:1901
+msgid "This appears to be an invalid license key."
+msgstr "Cette clé de licence semble non valide."
+
+#: admin_section/structure_admin.php:1898
+msgid "Your license is not active for this URL."
+msgstr "Votre licence n’est pas activée pour cette URL."
+
+#: admin_section/structure_admin.php:1894
+msgid "Invalid license."
+msgstr "Licence non valide."
+
+#: admin_section/structure_admin.php:1891
+msgid "Your license key has been disabled."
+msgstr "Votre clé de licence a été désactivée."
+
+#: admin_section/structure_admin.php:1886
+msgid "Your license key expired on %s."
+msgstr "Votre clé de licence a expiré le %s."
+
+#: admin_section/structure_admin.php:1828
+#: admin_section/structure_admin.php:1910
+msgid "An error occurred, please try again."
+msgstr "Une erreur est survenue, veuillez réessayer."
+
+#. Author of the plugin
+msgid "Magazine3"
+msgstr "Magazine3"
+
+#: modules/elementor/widgets/qanda-block.php:115
+#: modules/elementor/widgets/qanda-block.php:176
+#: modules/gutenberg/assets/blocks/event.js:581
+#: modules/gutenberg/assets/blocks/qanda.js:358
+#: modules/gutenberg/assets/blocks/qanda.js:421
+msgid "URL"
+msgstr "URL"
+
+#: modules/elementor/widgets/how-to-block.php:234
+#: modules/gutenberg/assets/blocks/event.js:630
+#: modules/gutenberg/assets/blocks/howto.js:934
+#: modules/gutenberg/assets/blocks/qanda.js:490
+msgid "Settings"
+msgstr "Réglages"
+
+#. Author URI of the plugin
+msgid "http://structured-data-for-wp.com/"
+msgstr "http://structured-data-for-wp.com/"
+
+#: output/output.php:2574
+msgid " Category"
+msgstr " Catégorie"
+
+#: modules/elementor/widgets/how-to-block.php:77
+msgid "Currency"
+msgstr "Devise"
+
+#: modules/elementor/widgets/how-to-block.php:86
+#: modules/gutenberg/assets/blocks/event.js:371
+msgid "Price"
+msgstr "Prix"
+
+#: modules/elementor/widgets/how-to-block.php:97
+#: modules/elementor/widgets/how-to-block.php:105
+#: modules/elementor/widgets/how-to-block.php:137
+#: modules/gutenberg/assets/blocks/course.js:187
+msgid "Description"
+msgstr "Description"
+
+#: modules/elementor/widgets/qanda-block.php:42
+#: modules/gutenberg/assets/blocks/course.js:111
+#: modules/gutenberg/assets/blocks/event.js:417
+#: modules/gutenberg/assets/blocks/event.js:490
+#: modules/gutenberg/assets/blocks/event.js:571
+msgid "Name"
+msgstr "Nom"
+
+#: core/array-list/meta_list.php:52
+msgid "Logo"
+msgstr "Logo"
+
+#: core/array-list/meta_list.php:27 core/array-list/meta_list.php:29
+msgid "Taxonomy Term"
+msgstr "Termes de taxonomie"
+
+#: modules/reviews/reviews_setup.php:567
+msgid "All"
+msgstr "Toutes"
+
+#: admin_section/add-schema/add_new.php:623
+#: admin_section/plugin-installer/install.php:563
+msgid "Please define an SVG icon filename."
+msgstr "Veuillez définir un nom de fichier d’icône SVG."
+
+#: admin_section/add-schema/add_new.php:618
+#: admin_section/plugin-installer/install.php:558
+msgid "Please define default parameters in the form of an array."
+msgstr "Veuillez définir les paramètres par défaut sous forme d’un tableau."
+
+#: modules/elementor/widgets/how-to-block.php:164
+#: modules/elementor/widgets/how-to-block.php:324
+msgid "Tools"
+msgstr "Outils"
+
+#. Plugin Name of the plugin
+msgid "Schema & Structured Data for WP & AMP"
+msgstr "Schema & Structured Data for WP & AMP"
+
+#: admin_section/add-schema/add_new.php:141
+msgid "ADD NEW SCHEMA"
+msgstr "AJOUTER UN SCHÉMA"
+
+#. Description of the plugin
+msgid "Schema & Structured Data adds Google Rich Snippets markup according to Schema.org guidelines to structure your site for SEO. (AMP Compatible)"
+msgstr "Schema & Structured Data ajoute le balisage d’extraits enrichis d’après les directives de Schema.org pour structurer votre site pour le SEO. (Compatible AMP)"
+
+#: admin_section/plugin-installer/install.php:120
+msgid "Schema and Structured Data Installation Wizard"
+msgstr "Assistant d’installation de Schema and Structured Data"
+
+#: modules/elementor/widgets/qanda-block.php:68
+#: modules/elementor/widgets/qanda-block.php:122
+#: modules/elementor/widgets/qanda-block.php:183
+#: modules/gutenberg/assets/blocks/qanda.js:311
+#: modules/gutenberg/assets/blocks/qanda.js:369
+#: modules/gutenberg/assets/blocks/qanda.js:432
+msgid "Author"
+msgstr "Auteur"

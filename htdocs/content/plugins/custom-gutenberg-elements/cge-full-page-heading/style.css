@@ -1,0 +1,49 @@
+/**
+ * Note that these styles are loaded *before* editor styles, so that
+ * editor-specific styles using the same selectors will take precedence.
+ */
+
+.wp-block-custom-gutenberg-elements-cge-full-page-heading h1, .wp-block-custom-gutenberg-elements-cge-full-page-heading h2 {
+    text-transform: unset;
+    font-size: 30px;
+}
+
+.wp-block-custom-gutenberg-elements-cge-full-page-heading .recipe-image {
+    background: #f1f1f1;
+    float: right;
+    width: 50%;
+    min-height: 100px;
+    text-align: center;
+}
+
+.wp-block-custom-gutenberg-elements-cge-full-page-heading .recipe-image button {
+    margin-top: 30px;
+}
+
+.wp-block-custom-gutenberg-elements-cge-full-page-heading .recipe-image button.image-button {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.wp-block-custom-gutenberg-elements-cge-full-page-heading .recipe-image img {
+    display: block;
+    z-index: 1;
+    position: relative;
+}
+
+.wp-block-custom-gutenberg-elements-cge-full-page-heading h4 {
+    font-size: 1em;
+    color: #ff6800;
+    margin: 0;
+}
+
+.wp-block-custom-gutenberg-elements-cge-full-page-heading ul {
+    padding-left: 2.5em !important; /* Needs fix in Gutenberg. */
+}
+
+.wp-block-custom-gutenberg-elements-cge-full-page-heading:after {
+    content: "";
+    clear: both;
+    display: table;
+}

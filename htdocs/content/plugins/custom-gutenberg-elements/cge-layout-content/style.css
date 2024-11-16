@@ -1,0 +1,47 @@
+/**
+ * Note that these styles are loaded *before* editor styles, so that
+ * editor-specific styles using the same selectors will take precedence.
+ */
+
+.wp-block-custom-gutenberg-elements-cge-layout-content{
+	border: 2px dotted #ff0c13;
+	/*background-color: rgba(255, 224, 157, 0.15);*/
+}
+
+.wp-block-custom-gutenberg-elements-cge-layout-content.recipe-image {
+	background: #f1f1f1;
+	float: right;
+	width: 50%;
+	min-height: 100px;
+	text-align: center;
+}
+
+.wp-block-custom-gutenberg-elements-cge-layout-content.recipe-image button {
+	margin-top: 30px;
+}
+
+.wp-block-custom-gutenberg-elements-cge-layout-content.recipe-image button.image-button {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+.wp-block-custom-gutenberg-elements-cge-layout-content.recipe-image img {
+	display: block;
+	z-index: 1;
+	position: relative;
+}
+
+.wp-block-custom-gutenberg-elements-cge-layout-contenth2 {
+	font-size: 1.5em;
+}
+
+.wp-block-custom-gutenberg-elements-cge-layout-contentul {
+	padding-left: 2.5em !important; /* Needs fix in Gutenberg. */
+}
+
+.wp-block-custom-gutenberg-elements-cge-layout-sport-score:after {
+	content:""; 
+	clear:both; 
+	display: table; 
+}

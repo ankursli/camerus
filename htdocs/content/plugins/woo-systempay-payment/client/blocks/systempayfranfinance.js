@@ -1,0 +1,68 @@
+/**
+ * Copyright © Lyra Network and contributors.
+ * This file is part of Systempay plugin for WooCommerce. See COPYING.md for license details.
+ *
+ * @author    Lyra Network (https://www.lyra.com/)
+ * @author    Geoffrey Crofte, Alsacréations (https://www.alsacreations.fr/)
+ * @copyright Lyra Network and contributors
+ * @license   http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU General Public License (GPL v2)
+ */
+
+/**
+ * External dependencies.
+ */
+import { registerPaymentMethod } from '@woocommerce/blocks-registry';
+
+/**
+ * Internal dependencies.
+ */
+import { getSystempayServerData } from './systempay-utils';
+
+const PAYMENT_METHOD_NAME = 'systempayfranfinance';
+var systempay_data = getSystempayServerData(PAYMENT_METHOD_NAME);
+
+const Content = () => {
+    var fields = <ul dangerouslySetInnerHTML={{__html: systempay_data?.payment_fields}} />;
+    jQuery('.wc-block-components-checkout-place-order-button').on('click', systempay_get_selected_option(['systempayfranfinance_option']));
+
+    return (
+        <div>
+            { systempay_data?.description }
+            { fields }
+        </div>
+    );
+};
+
+const Label = () => {
+    const styles = {
+        divWidth: {
+            width: '95%'
+        },
+        imgFloat: {
+            float: 'right'
+        }
+    }
+
+    return (
+        <div style={ styles.divWidth }>
+            <span>{ systempay_data?.title}</span>
+            <img
+                style={ styles.imgFloat }
+                src={ systempay_data?.logo_url }
+                alt={ systempay_data?.title }
+            />
+        </div>
+    );
+};
+
+registerPaymentMethod({
+    name: PAYMENT_METHOD_NAME,
+    label: <Label />,
+    ariaLabel: 'Systempay payment method',
+    canMakePayment: () => true,
+    content: <Content />,
+    edit: <Content />,
+    supports: {
+        features: systempay_data?.supports ?? [],
+    },
+});

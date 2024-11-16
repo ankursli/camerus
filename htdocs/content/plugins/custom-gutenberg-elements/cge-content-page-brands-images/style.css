@@ -1,0 +1,51 @@
+/**
+ * Note that these styles are loaded *before* editor styles, so that
+ * editor-specific styles using the same selectors will take precedence.
+ */
+
+.wp-block-custom-gutenberg-elements-cge-content-page-brands-images {
+    background-color: rgba(255, 179, 211, 0.55);
+    padding: 1rem;
+}
+
+.wp-block-custom-gutenberg-elements-cge-content-page-brands-images .image-button .img-thumbnail {
+    background-color: unset;
+}
+
+.wp-block-custom-gutenberg-elements-cge-content-page-brands-images .recipe-image {
+    background: #f1f1f1;
+    float: right;
+    width: 50%;
+    min-height: 100px;
+    text-align: center;
+}
+
+.wp-block-custom-gutenberg-elements-cge-content-page-brands-images .recipe-image button {
+    margin-top: 30px;
+}
+
+.wp-block-custom-gutenberg-elements-cge-content-page-brands-images .recipe-image button.image-button {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.wp-block-custom-gutenberg-elements-cge-content-page-brands-images .recipe-image img {
+    display: block;
+    z-index: 1;
+    position: relative;
+}
+
+.wp-block-custom-gutenberg-elements-cge-content-page-brands-images h2 {
+    font-size: 1.5em;
+}
+
+.wp-block-custom-gutenberg-elements-cge-content-page-brands-images ul {
+    padding-left: 2.5em !important; /* Needs fix in Gutenberg. */
+}
+
+.wp-block-custom-gutenberg-elements-cge-content-page-brands-images:after {
+    content: "";
+    clear: both;
+    display: table;
+}

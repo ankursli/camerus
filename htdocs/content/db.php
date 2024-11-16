@@ -1,0 +1,1 @@
+/home/dyuv7350/camerus.webstorm.fr/camerus/camerus/htdocs/content/plugins/query-monitor/wp-content/db.php

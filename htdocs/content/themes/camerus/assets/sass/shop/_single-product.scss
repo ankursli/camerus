@@ -1,0 +1,181 @@
+/**
+ * Single Product
+ */
+.single-product {
+  div.product {
+    @include clearfix;
+    position: relative;
+
+    .woocommerce-product-gallery {
+      position: relative;
+
+      .woocommerce-product-gallery__trigger {
+        position: absolute;
+        top: 1em;
+        right: 1em;
+        display: block;
+        z-index: 99;
+      }
+
+      .flex-viewport {
+        margin-bottom: 1em;
+      }
+
+      .flex-control-thumbs {
+        @include clearfix;
+        margin: 0;
+        padding: 0;
+
+        li {
+          list-style: none;
+          cursor: pointer;
+          float: left;
+
+          img {
+            opacity: .5;
+
+            &.flex-active {
+              opacity: 1;
+            }
+          }
+
+          &:hover {
+            img {
+              opacity: 1;
+            }
+          }
+        }
+      }
+
+      @for $i from 2 through 5 {
+        &.woocommerce-product-gallery--columns-#{$i} {
+          .flex-control-thumbs {
+            li {
+              @include column-width($i);
+
+              &:nth-child(#{$i}n) {
+                margin-right: 0;
+              }
+
+              &:nth-child(#{$i}n+1) {
+                clear: both;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.stock {
+  &:empty:before {
+    display: none;
+  }
+
+  &.in-stock {
+    color: $woocommerce__color-success;
+  }
+
+  &.out-of-stock {
+    color: $woocommerce__color-error;
+  }
+}
+
+.single_variation_wrap .single_add_to_cart_button {
+  color: #fff;
+}
+
+.single_variation_wrap .screen-reader-text {
+  display: none;
+}
+
+.block-load-data {
+  position: relative;
+
+  .uk-spinner {
+    display: none;
+    z-index: 20;
+  }
+
+  &.load {
+    .block-content, .card-content, .block-product__characteristics {
+      filter: blur(2.8px);
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      display: block;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      animation-duration: 2.25s;
+      animation-fill-mode: forwards;
+      animation-iteration-count: infinite;
+      animation-name: placeHolderShimmer;
+      animation-timing-function: linear;
+      background: darkgray;
+      background: linear-gradient(to right, rgba(#eeeeee, 0.2) 10%, rgba(#dddddd, 0.4) 18%, rgba(#eeeeee, 0.2) 33%);
+      background-size: 800px 104px;
+      z-index: 5;
+    }
+  }
+}
+
+@keyframes placeHolderShimmer {
+  0% {
+    background-position: -468px 0
+  }
+  100% {
+    background-position: 468px 0
+  }
+}
+
+.card-suggestions__product, .block-product__link, .block-widget__event {
+  position: relative;
+
+  .uk-spinner {
+    display: none;
+    z-index: 20;
+  }
+
+  &.load {
+    .block-content, .card-content {
+      position: relative;
+      filter: blur(2.8px);
+
+      &:before {
+        content: '';
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        animation-duration: 2.25s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+        animation-name: placeHolderShimmer;
+        animation-timing-function: linear;
+        background: darkgray;
+        background: linear-gradient(to right, rgba(#eeeeee, 0.2) 10%, rgba(#dddddd, 0.4) 18%, rgba(#eeeeee, 0.2) 33%);
+        background-size: 800px 104px;
+        z-index: 5;
+      }
+    }
+  }
+}
+
+.block-widget__event {
+  display: block;
+
+  &.load {
+    display: none;
+
+    &:after {
+      background-color: #fff;
+    }
+  }
+}
